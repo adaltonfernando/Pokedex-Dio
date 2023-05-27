@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://adaltonfernando.github.io/js-developer-pokedex/ -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./Pokedex_files/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Pokedex_files/css2" rel="stylesheet">
+
+    <!-- Css Personalizado -->
+    <link rel="stylesheet" href="./Pokedex_files/global.css">
+    <link rel="stylesheet" href="./Pokedex_files/pokedex.css">
+
+</head>
+
+<body>
+    <section class="content">
+        <h1>Pokedex</h1>
+        <ol id="pokemonList" class="pokemons"> 
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=1">
+            <li class="pokemon grass">
+                <span class="number grass">#1</span>
+                <span class="name">bulbasaur</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/1.png" alt="bulbasaur">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=2">
+            <li class="pokemon grass">
+                <span class="number grass">#2</span>
+                <span class="name">ivysaur</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/2.png" alt="ivysaur">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=3">
+            <li class="pokemon grass">
+                <span class="number grass">#3</span>
+                <span class="name">venusaur</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/3.png" alt="venusaur">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=4">
+            <li class="pokemon fire">
+                <span class="number fire">#4</span>
+                <span class="name">charmander</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>  
+                    <img src="./Pokedex_files/4.png" alt="charmander">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=5">
+            <li class="pokemon fire">
+                <span class="number fire">#5</span>
+                <span class="name">charmeleon</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>  
+                    <img src="./Pokedex_files/5.png" alt="charmeleon">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=6">
+            <li class="pokemon fire">
+                <span class="number fire">#6</span>
+                <span class="name">charizard</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/6.png" alt="charizard">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=7">
+            <li class="pokemon water">
+                <span class="number water">#7</span>
+                <span class="name">squirtle</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type water">water</li>
+                    </ol>  
+                    <img src="./Pokedex_files/7.png" alt="squirtle">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=8">
+            <li class="pokemon water">
+                <span class="number water">#8</span>
+                <span class="name">wartortle</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type water">water</li>
+                    </ol>  
+                    <img src="./Pokedex_files/8.png" alt="wartortle">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=9">
+            <li class="pokemon water">
+                <span class="number water">#9</span>
+                <span class="name">blastoise</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type water">water</li>
+                    </ol>  
+                    <img src="./Pokedex_files/9.png" alt="blastoise">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=10">
+            <li class="pokemon bug">
+                <span class="number bug">#10</span>
+                <span class="name">caterpie</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                    </ol>  
+                    <img src="./Pokedex_files/10.png" alt="caterpie">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=11">
+            <li class="pokemon bug">
+                <span class="number bug">#11</span>
+                <span class="name">metapod</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                    </ol>  
+                    <img src="./Pokedex_files/11.png" alt="metapod">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=12">
+            <li class="pokemon bug">
+                <span class="number bug">#12</span>
+                <span class="name">butterfree</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/12.png" alt="butterfree">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=13">
+            <li class="pokemon bug">
+                <span class="number bug">#13</span>
+                <span class="name">weedle</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/13.png" alt="weedle">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=14">
+            <li class="pokemon bug">
+                <span class="number bug">#14</span>
+                <span class="name">kakuna</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/14.png" alt="kakuna">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.io/js-developer-pokedex/info?id=15">
+            <li class="pokemon bug">
+                <span class="number bug">#15</span>
+                <span class="name">beedrill</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/15.png" alt="beedrill">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=16">
+            <li class="pokemon normal">
+                <span class="number normal">#16</span>
+                <span class="name">pidgey</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/16.png" alt="pidgey">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=17">
+            <li class="pokemon normal">
+                <span class="number normal">#17</span>
+                <span class="name">pidgeotto</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/17.png" alt="pidgeotto">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=18">
+            <li class="pokemon normal">
+                <span class="number normal">#18</span>
+                <span class="name">pidgeot</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/18.png" alt="pidgeot">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=19">
+            <li class="pokemon normal">
+                <span class="number normal">#19</span>
+                <span class="name">rattata</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                    </ol>  
+                    <img src="./Pokedex_files/19.png" alt="rattata">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=20">
+            <li class="pokemon normal">
+                <span class="number normal">#20</span>
+                <span class="name">raticate</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                    </ol>  
+                    <img src="./Pokedex_files/20.png" alt="raticate">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=21">
+            <li class="pokemon normal">
+                <span class="number normal">#21</span>
+                <span class="name">spearow</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/21.png" alt="spearow">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=22">
+            <li class="pokemon normal">
+                <span class="number normal">#22</span>
+                <span class="name">fearow</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/22.png" alt="fearow">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=23">
+            <li class="pokemon poison">
+                <span class="number poison">#23</span>
+                <span class="name">ekans</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/23.png" alt="ekans">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=24">
+            <li class="pokemon poison">
+                <span class="number poison">#24</span>
+                <span class="name">arbok</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/24.png" alt="arbok">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=25">
+            <li class="pokemon electric">
+                <span class="number electric">#25</span>
+                <span class="name">pikachu</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type electric">electric</li>
+                    </ol>  
+                    <img src="./Pokedex_files/25.png" alt="pikachu">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=26">
+            <li class="pokemon electric">
+                <span class="number electric">#26</span>
+                <span class="name">raichu</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type electric">electric</li>
+                    </ol>  
+                    <img src="./Pokedex_files/26.png" alt="raichu">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=27">
+            <li class="pokemon ground">
+                <span class="number ground">#27</span>
+                <span class="name">sandshrew</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type ground">ground</li>
+                    </ol>  
+                    <img src="./Pokedex_files/27.png" alt="sandshrew">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=28">
+            <li class="pokemon ground">
+                <span class="number ground">#28</span>
+                <span class="name">sandslash</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type ground">ground</li>
+                    </ol>  
+                    <img src="./Pokedex_files/28.png" alt="sandslash">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=29">
+            <li class="pokemon poison">
+                <span class="number poison">#29</span>
+                <span class="name">nidoran-f</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/29.png" alt="nidoran-f">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=30">
+            <li class="pokemon poison">
+                <span class="number poison">#30</span>
+                <span class="name">nidorina</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/30.png" alt="nidorina">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=31">
+            <li class="pokemon poison">
+                <span class="number poison">#31</span>
+                <span class="name">nidoqueen</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li><li class="type ground">ground</li>
+                    </ol>  
+                    <img src="./Pokedex_files/31.png" alt="nidoqueen">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=32">
+            <li class="pokemon poison">
+                <span class="number poison">#32</span>
+                <span class="name">nidoran-m</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/32.png" alt="nidoran-m">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=33">
+            <li class="pokemon poison">
+                <span class="number poison">#33</span>
+                <span class="name">nidorino</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/33.png" alt="nidorino">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=34">
+            <li class="pokemon poison">
+                <span class="number poison">#34</span>
+                <span class="name">nidoking</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li><li class="type ground">ground</li>
+                    </ol>  
+                    <img src="./Pokedex_files/34.png" alt="nidoking">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=35">
+            <li class="pokemon fairy">
+                <span class="number fairy">#35</span>
+                <span class="name">clefairy</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fairy">fairy</li>
+                    </ol>  
+                    <img src="./Pokedex_files/35.png" alt="clefairy">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=36">
+            <li class="pokemon fairy">
+                <span class="number fairy">#36</span>
+                <span class="name">clefable</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fairy">fairy</li>
+                    </ol>  
+                    <img src="./Pokedex_files/36.png" alt="clefable">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=37">
+            <li class="pokemon fire">
+                <span class="number fire">#37</span>
+                <span class="name">vulpix</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>  
+                    <img src="./Pokedex_files/37.png" alt="vulpix">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=38">
+            <li class="pokemon fire">
+                <span class="number fire">#38</span>
+                <span class="name">ninetales</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>  
+                    <img src="./Pokedex_files/38.png" alt="ninetales">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=39">
+            <li class="pokemon normal">
+                <span class="number normal">#39</span>
+                <span class="name">jigglypuff</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type fairy">fairy</li>
+                    </ol>  
+                    <img src="./Pokedex_files/39.png" alt="jigglypuff">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=40">
+            <li class="pokemon normal">
+                <span class="number normal">#40</span>
+                <span class="name">wigglytuff</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li><li class="type fairy">fairy</li>
+                    </ol>  
+                    <img src="./Pokedex_files/40.png" alt="wigglytuff">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=41">
+            <li class="pokemon poison">
+                <span class="number poison">#41</span>
+                <span class="name">zubat</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/41.png" alt="zubat">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=42">
+            <li class="pokemon poison">
+                <span class="number poison">#42</span>
+                <span class="name">golbat</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li><li class="type flying">flying</li>
+                    </ol>  
+                    <img src="./Pokedex_files/42.png" alt="golbat">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=43">
+            <li class="pokemon grass">
+                <span class="number grass">#43</span>
+                <span class="name">oddish</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/43.png" alt="oddish">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.io/js-developer-pokedex/info?id=44">
+            <li class="pokemon grass">
+                <span class="number grass">#44</span>
+                <span class="name">gloom</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/44.png" alt="gloom">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=45">
+            <li class="pokemon grass">
+                <span class="number grass">#45</span>
+                <span class="name">vileplume</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/45.png" alt="vileplume">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=46">
+            <li class="pokemon bug">
+                <span class="number bug">#46</span>
+                <span class="name">paras</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type grass">grass</li>
+                    </ol>  
+                    <img src="./Pokedex_files/46.png" alt="paras">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=47">
+            <li class="pokemon bug">
+                <span class="number bug">#47</span>
+                <span class="name">parasect</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type grass">grass</li>
+                    </ol>  
+                    <img src="./Pokedex_files/47.png" alt="parasect">
+                </div>
+            </li>
+            </a>
+        
+            <a href="https://adaltonfernando.github.io/js-developer-pokedex/info?id=48">
+            <li class="pokemon bug">
+                <span class="number bug">#48</span>
+                <span class="name">venonat</span>
+
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li><li class="type poison">poison</li>
+                    </ol>  
+                    <img src="./Pokedex_files/48.png" alt="venonat">
+                </div>
+            </li>
+            </a>
+        </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">Load More</button>
+        </div>
+    </section>
+    <script src="./Pokedex_files/pokemon-model.js.baixados"></script>
+    <script src="./Pokedex_files/poke-api.js.baixados"></script>
+    <script src="./Pokedex_files/main.js.baixados"></script>
+
+
+</body></html>
